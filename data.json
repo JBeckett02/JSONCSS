@@ -1,29 +1,31 @@
-"variants":{
-  {
-    id:1,
-    color:'white',
-    brand: 'Bucks', 
-    title: 'Home Jersey', 
-    price: '$69.99', 
-    image:require('@/assets/BucksHome.jpg'), 
-    quantity: 10
-  },
-  {
-    id:2,
-    color:'green',
-    brand: 'Bucks', 
-    title: 'Away Jersey', 
-    price: '$69.99', 
-    image:require('@/assets/BucksAway.jpg'), 
-    quantity: 0
-  },
-  {
-    id:3,
-    color:'black',
-    brand: 'Bucks', 
-    title: 'Statement Edition Jersey', 
-    price: '$59.99', 
-    image:require('@/assets/BucksStatement.jpg'), 
-    quantity: 3
-  }
+{
+   "variants":[
+      {
+         "id":1,
+         "color":"white",
+         "brand":"Bucks",
+         "title":"Home Jersey",
+         "price":"$69.99",
+         "image":"@/assets/BucksHome.jpg",
+         "quantity":10
+      },
+      {
+         "id":2,
+         "color":"green",
+         "brand":"Bucks",
+         "title":"Away Jersey",
+         "price":"$69.99",
+         "image":"@/assets/BucksAway.jpg",
+         "quantity":0
+      },
+      {
+         "id":3,
+         "color":"black",
+         "brand":"Bucks",
+         "title":"Statement Edition Jersey",
+         "price":"$59.99",
+         "image":"@/assets/BucksStatement.jpg",
+         "quantity":3
+      }
+   ]
 }
